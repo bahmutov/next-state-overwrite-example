@@ -3,6 +3,10 @@
 [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-7.7.0-brightgreen)
 > Example overwriting Next.js variable NEXT_STATE from a Cypress test
 
+![Example test](./images/no-warning.png)
+
+See [cypress/integration/spec.js](./cypress/integration/spec.js)
+
 ## Install and start
 
 ```shell
