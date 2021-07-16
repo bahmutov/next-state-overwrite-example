@@ -11,8 +11,8 @@ jobs:
       - name: Run Cypress tests 🧪
         uses: cypress-io/github-action@v2
         with:
-          start: 'npm start'
-          wait-on: 'http://localhost:5600'
+          start: 'yarn dev'
+          wait-on: 'http://localhost:3000'
           record: true
         env:
           # pass the Dashboard record key as an environment variable
