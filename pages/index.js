@@ -25,7 +25,7 @@ export default function Home({ experiments }) {
       <main className={styles.main}>
         <h1 className={styles.title}>Hello there</h1>
 
-        <p className={styles.description}>
+        <p className={styles.description} data-cy="greeting">
           {experiments.greeting || 'Silence'}
         </p>
       </main>

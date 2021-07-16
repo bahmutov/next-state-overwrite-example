@@ -1,12 +1,15 @@
 {
   "name": "next-state-overwrite-example",
   "version": "0.1.0",
+  "description": "Example overwriting Next.js variable NEXT_STATE from a Cypress test",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "local": "start-test dev 3000 cy:open",
+    "cy:open": "cypress open"
   },
   "dependencies": {
     "next": "11.0.1",
@@ -14,8 +17,10 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "cypress": "^7.7.0",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "start-server-and-test": "^1.12.6"
   }
 }
