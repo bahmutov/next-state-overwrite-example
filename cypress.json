@@ -4,5 +4,6 @@
   "pluginsFile": false,
   "baseUrl": "http://localhost:3000",
   "viewportHeight": 400,
-  "viewportWidth": 400
+  "viewportWidth": 400,
+  "projectId": "onn62n"
 }
