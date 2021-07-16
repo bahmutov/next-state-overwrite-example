@@ -1,5 +1,5 @@
 # next-state-overwrite-example
-[![ci status][ci image]][ci url] [![badges status][badges image]][badges url]
+[![ci status][ci image]][ci url] [![badges status][badges image]][badges url] [![next-state-overwrite-example](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/onn62n/main&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/onn62n/runs)
 [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-7.7.0-brightgreen)
 > Example overwriting Next.js variable NEXT_STATE from a Cypress test
 
