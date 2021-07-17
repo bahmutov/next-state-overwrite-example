@@ -3,6 +3,9 @@
 [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-7.7.0-brightgreen)
 > Example overwriting Next.js variable NEXT_STATE from a Cypress test
 
+Read the blog post [Control Next.js Server-Side Data During Cypress Tests
+](https://glebbahmutov.com/blog/control-nextjs-data-during-tests/)
+
 ![Example test](./images/no-warning.png)
 
 See [cypress/integration/spec.js](./cypress/integration/spec.js)
